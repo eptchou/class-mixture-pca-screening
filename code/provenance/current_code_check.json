@@ -1,0 +1,33 @@
+{
+  "primary_seed_files": 100,
+  "primary_checkpoint_count": 100,
+  "before_checkpoint_count": 10,
+  "zero_or_invalid_checkpoints": [],
+  "probe_seed_checks": 30,
+  "max_probe_prototype_difference": 1.1102230246251565e-16,
+  "stability_split_rows": 1000,
+  "classifier_score_correlation_max_difference": 0.0,
+  "engine_sha256": "b0784bf669420dd7deb8734bb92ed16bbd9d80aa9da92d28ff7e782b246a6968",
+  "numerical_completed_utc": "2026-10-24T04:13:52.775481+00:00",
+  "checkpoint_recovery": {
+    "observed_problem": "empty reuters_bal classifier checkpoint for seed 4",
+    "recovery": "regenerated classifier and all 76 Siamese fits in an isolated directory",
+    "compared_performance_columns": [
+      "pair_acc",
+      "pair_f1",
+      "pair_acc_bt",
+      "pair_f1_bt",
+      "min_recall",
+      "min_f1",
+      "bal_acc",
+      "macro_f1"
+    ],
+    "max_metric_difference": 0.0,
+    "epochs_identical": true,
+    "primary_validation_accuracy_identical": true,
+    "primary_performance_records_replaced": false,
+    "extra_verification_fits": 76,
+    "checkpoint_sha256": "73f737817e2da2d7816f73d0fc2fd6dbd4af88709b16c309d97f4b011a00ff64"
+  },
+  "status": "all_numerical_checks_passed_after_checkpoint_recovery"
+}

@@ -1,0 +1,32 @@
+{
+ "seed": 8,
+ "val_acc": 0.9163179916317992,
+ "thresholds": {
+  "Elbow": 5,
+  "Var85": 43,
+  "Var90": 59,
+  "Var95": 82,
+  "Var99": 113
+ },
+ "n_train": 1113,
+ "n_val": 478,
+ "n_test": 177,
+ "class_counts_train": [
+  279,
+  278,
+  278,
+  278
+ ],
+ "class_counts_val": [
+  119,
+  120,
+  119,
+  120
+ ],
+ "class_counts_test": [
+  44,
+  44,
+  45,
+  44
+ ]
+}

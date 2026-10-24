@@ -1,0 +1,9 @@
+{
+  "seed": 6,
+  "criterion_fits": 76,
+  "max_prototype_difference": 5.551115123125783e-17,
+  "checked_metrics": [
+    "min_recall",
+    "bal_acc"
+  ]
+}

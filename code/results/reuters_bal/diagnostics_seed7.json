@@ -1,0 +1,82 @@
+{
+  "correlations": {
+    "seed": 7,
+    "rho_PCA_Variance": 0.9556457150704999,
+    "rho_PCA_CB-PCA": 0.9998226057498627,
+    "rho_PCA_NISP": 0.2290388665079656
+  },
+  "weight_rho": 0.9936996429225415,
+  "inf_fs_cv": 0.09641567389654525,
+  "stratified": {
+    "seed": 7,
+    "PCA_random": 0.937774102728438,
+    "PCA_stratified": 0.9593830113532318
+  },
+  "spectral": {
+    "seed": 7,
+    "r": 128,
+    "gmin_rel": 1.0303248842196165e-05,
+    "noise_op_median": 0.003797148832648834,
+    "eps16": 1.6187989963319295e-09,
+    "gap16": 0.0012645959618923786,
+    "ratio16": 2345658.0101994583,
+    "eps32": 1.218710642238751e-09,
+    "gap32": 0.0009520493605626734,
+    "ratio32": 3115709.915910421
+  },
+  "overlaps": [
+    {
+      "seed": 7,
+      "threshold": "Elbow",
+      "K": 5,
+      "overlap": 0,
+      "expected": 0.1953125,
+      "p_hyper": 1.0,
+      "kappa": -0.04065040650406504
+    },
+    {
+      "seed": 7,
+      "threshold": "Var85",
+      "K": 45,
+      "overlap": 17,
+      "expected": 15.8203125,
+      "p_hyper": 0.39411395063313276,
+      "kappa": 0.04042838018741633
+    },
+    {
+      "seed": 7,
+      "threshold": "Var90",
+      "K": 61,
+      "overlap": 33,
+      "expected": 29.0703125,
+      "p_hyper": 0.11208269301841985,
+      "kappa": 0.12307315879618302
+    },
+    {
+      "seed": 7,
+      "threshold": "Var95",
+      "K": 84,
+      "overlap": 58,
+      "expected": 55.125,
+      "p_hyper": 0.175841082392101,
+      "kappa": 0.09956709956709957
+    },
+    {
+      "seed": 7,
+      "threshold": "Var99",
+      "K": 114,
+      "overlap": 100,
+      "expected": 101.53125,
+      "p_hyper": 1.0,
+      "kappa": -0.12280701754385964
+    }
+  ],
+  "val_acc": 0.9330543933054394,
+  "thresholds": {
+    "Elbow": 5,
+    "Var85": 45,
+    "Var90": 61,
+    "Var95": 84,
+    "Var99": 114
+  }
+}

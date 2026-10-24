@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "PCA-guided neuron screening for Siamese networks under class imbalance"
+authors:
+  - family-names: Tsai
+    given-names: Pei-Ying
+  - family-names: Chou
+    given-names: Elizabeth Pei-Ting
+    orcid: ""  # add if available
+version: 1.0.0
+date-released: 2026-01-01
+license: MIT
+repository-code: "https://github.com/<your-account>/pcasnn-imbalance"
+keywords:
+  - class imbalance
+  - neuron pruning
+  - principal component analysis
+  - Siamese neural network
+  - feature screening

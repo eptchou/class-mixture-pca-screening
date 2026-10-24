@@ -1,0 +1,24 @@
+{
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "n_validation": 17199,
+  "repetitions": 20,
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "thread_limits": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "includes": "forward activations and score calculation; warmed forward computation",
+  "median_seconds": {
+    "PCA": 0.03935954100006711,
+    "CB-PCA": 0.04425946849960383,
+    "NISP": 0.1571350919998622,
+    "Variance": 0.029592138000225532
+  }
+}

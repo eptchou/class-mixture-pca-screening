@@ -1,0 +1,52 @@
+{
+  "counts": {
+    "primary_fits": 7600,
+    "probe_fits": 2280,
+    "preprocessing_before_fits": 760,
+    "total_siamese_fits": 10640
+  },
+  "patterns": {
+    "cb_minority_positive": [
+      "fmnist_r0.1",
+      "mfeat_r0.1",
+      "reuters_nat",
+      "fmnist_r0.3",
+      "fmnist_r0.02",
+      "fmnist_r0.01",
+      "fmnist_r0.002"
+    ],
+    "cb_minority_significant": [
+      "mfeat_r0.1",
+      "fmnist_r0.3",
+      "fmnist_r0.02",
+      "fmnist_r0.01"
+    ],
+    "cb_balanced_accuracy_significant": [],
+    "probe_cb_minority_significant": [
+      "mfeat_r0.1"
+    ],
+    "probe_cb_balanced_accuracy_significant": []
+  },
+  "changed_significance": [
+    {
+      "condition": "reuters_nat",
+      "measure": "prr_f1",
+      "criterion": "Variance",
+      "previous_difference": 0.0266,
+      "fresh_difference": 0.025660814998332872,
+      "previous_p_holm": 0.041,
+      "fresh_p_holm": 0.05859375,
+      "significance_changed": true
+    },
+    {
+      "condition": "reuters_nat",
+      "measure": "bal_acc",
+      "criterion": "CB-PCA",
+      "previous_difference": 0.0302,
+      "fresh_difference": 0.030988271470698447,
+      "previous_p_holm": 0.041,
+      "fresh_p_holm": 0.111328125,
+      "significance_changed": true
+    }
+  ]
+}

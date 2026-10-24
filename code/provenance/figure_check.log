@@ -1,0 +1,137 @@
+{
+ "n_seeds": {
+  "fmnist_bal": 10,
+  "fmnist_r0.1": 10,
+  "mfeat_bal": 10,
+  "mfeat_r0.1": 10,
+  "reuters_bal": 10,
+  "reuters_nat": 10,
+  "fmnist_r0.3": 10,
+  "fmnist_r0.02": 10,
+  "fmnist_r0.01": 10,
+  "fmnist_r0.002": 10
+ },
+ "ratio_minority_counts": [
+  [
+   0.3,
+   1323,
+   210,
+   17577
+  ],
+  [
+   0.1,
+   441,
+   70,
+   17199
+  ],
+  [
+   0.02,
+   88,
+   14,
+   17047
+  ],
+  [
+   0.01,
+   44,
+   7,
+   17028
+  ],
+  [
+   0.002,
+   8,
+   5,
+   17015
+  ]
+ ],
+ "full_fmnist_bal": {
+  "pair_acc": [
+   0.9026,
+   0.0026
+  ],
+  "pair_f1": [
+   0.9045,
+   0.0024
+  ],
+  "min_recall": [
+   0.8781,
+   0.0254
+  ],
+  "bal_acc": [
+   0.8505,
+   0.0082
+  ],
+  "macro_f1": [
+   0.8482,
+   0.0083
+  ]
+ },
+ "full_fmnist_r0.1": {
+  "pair_acc": [
+   0.9019,
+   0.0047
+  ],
+  "pair_f1": [
+   0.9047,
+   0.004
+  ],
+  "min_recall": [
+   0.8559,
+   0.0167
+  ],
+  "bal_acc": [
+   0.8465,
+   0.0127
+  ],
+  "macro_f1": [
+   0.8442,
+   0.0126
+  ]
+ },
+ "full_mfeat_bal": {
+  "pair_acc": [
+   0.96,
+   0.0094
+  ],
+  "pair_f1": [
+   0.9588,
+   0.0102
+  ],
+  "min_recall": [
+   0.975,
+   0.0264
+  ],
+  "bal_acc": [
+   0.988,
+   0.0071
+  ],
+  "macro_f1": [
+   0.988,
+   0.0071
+  ]
+ },
+ "full_mfeat_r0.1": {
+  "pair_acc": [
+   0.9616,
+   0.0065
+  ],
+  "pair_f1": [
+   0.9606,
+   0.0066
+  ],
+  "min_recall": [
+   0.955,
+   0.0158
+  ],
+  "bal_acc": [
+   0.9835,
+   0.0063
+  ],
+  "macro_f1": [
+   0.9835,
+   0.0063
+  ]
+ }
+}
+tags: {'fmnist_bal': 10, 'fmnist_r0.1': 10, 'mfeat_bal': 10, 'mfeat_r0.1': 10, 'reuters_bal': 10, 'reuters_nat': 10, 'fmnist_r0.3': 10, 'fmnist_r0.02': 10, 'fmnist_r0.01': 10, 'fmnist_r0.002': 10}
+split-half reference lines: rho 0.9920  J16 0.8193  J32 0.8783
+ALL CHECKS PASSED 0

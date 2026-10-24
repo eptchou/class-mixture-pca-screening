@@ -1,0 +1,307 @@
+{
+  "started_utc": "2026-10-24T03:09:06.746046+00:00",
+  "phase": "diagnostics_and_probes",
+  "jobs": {
+    "mfeat_r0.1": {
+      "status": "completed",
+      "started_utc": "2026-10-24T03:09:06.761710+00:00",
+      "cores": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "argv": [
+        "run_condition.py",
+        "mfeat",
+        0.1,
+        "mfeat_r0.1"
+      ],
+      "pid": 11,
+      "returncode": 0,
+      "finished_utc": "2026-10-24T03:12:39.032490+00:00",
+      "seconds": 212.27
+    },
+    "fmnist_r0.1": {
+      "status": "completed",
+      "started_utc": "2026-10-24T03:09:06.762444+00:00",
+      "cores": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "argv": [
+        "run_condition.py",
+        "fmnist",
+        0.1,
+        "fmnist_r0.1"
+      ],
+      "pid": 12,
+      "returncode": 0,
+      "finished_utc": "2026-10-24T03:26:12.152674+00:00",
+      "seconds": 1025.39
+    },
+    "reuters_nat": {
+      "status": "completed",
+      "started_utc": "2026-10-24T03:12:39.035347+00:00",
+      "cores": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "argv": [
+        "run_condition.py",
+        "reuters_nat",
+        1.0,
+        "reuters_nat"
+      ],
+      "pid": 73,
+      "returncode": 0,
+      "finished_utc": "2026-10-24T03:24:36.894066+00:00",
+      "seconds": 717.86
+    },
+    "reuters_bal": {
+      "status": "completed",
+      "started_utc": "2026-10-24T03:24:36.895579+00:00",
+      "cores": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "argv": [
+        "run_condition.py",
+        "reuters_bal",
+        1.0,
+        "reuters_bal"
+      ],
+      "pid": 104,
+      "returncode": 0,
+      "finished_utc": "2026-10-24T03:34:01.740513+00:00",
+      "seconds": 564.84
+    },
+    "fmnist_bal": {
+      "status": "completed",
+      "started_utc": "2026-10-24T03:26:12.153347+00:00",
+      "cores": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "argv": [
+        "run_condition.py",
+        "fmnist",
+        1.0,
+        "fmnist_bal"
+      ],
+      "pid": 135,
+      "returncode": 0,
+      "finished_utc": "2026-10-24T03:45:20.271892+00:00",
+      "seconds": 1148.12
+    },
+    "fmnist_r0.3": {
+      "status": "completed",
+      "started_utc": "2026-10-24T03:34:01.741389+00:00",
+      "cores": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "argv": [
+        "run_condition.py",
+        "fmnist",
+        0.3,
+        "fmnist_r0.3"
+      ],
+      "pid": 166,
+      "returncode": 0,
+      "finished_utc": "2026-10-24T03:52:24.187554+00:00",
+      "seconds": 1102.45
+    },
+    "fmnist_r0.002": {
+      "status": "completed",
+      "started_utc": "2026-10-24T03:45:20.272624+00:00",
+      "cores": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "argv": [
+        "run_condition.py",
+        "fmnist",
+        0.002,
+        "fmnist_r0.002"
+      ],
+      "pid": 197,
+      "returncode": 0,
+      "finished_utc": "2026-10-24T03:55:55.047518+00:00",
+      "seconds": 634.77
+    },
+    "fmnist_r0.02": {
+      "status": "completed",
+      "started_utc": "2026-10-24T03:52:24.188729+00:00",
+      "cores": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "argv": [
+        "run_condition.py",
+        "fmnist",
+        0.02,
+        "fmnist_r0.02"
+      ],
+      "pid": 198,
+      "returncode": 0,
+      "finished_utc": "2026-10-24T03:52:25.929882+00:00",
+      "seconds": 1.74
+    },
+    "fmnist_r0.01": {
+      "status": "completed",
+      "started_utc": "2026-10-24T03:52:25.930956+00:00",
+      "cores": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "argv": [
+        "run_condition.py",
+        "fmnist",
+        0.01,
+        "fmnist_r0.01"
+      ],
+      "pid": 199,
+      "returncode": 0,
+      "finished_utc": "2026-10-24T03:52:27.760848+00:00",
+      "seconds": 1.83
+    },
+    "mfeat_bal": {
+      "status": "completed",
+      "started_utc": "2026-10-24T03:52:27.761702+00:00",
+      "cores": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "argv": [
+        "run_condition.py",
+        "mfeat",
+        1.0,
+        "mfeat_bal"
+      ],
+      "pid": 200,
+      "returncode": 0,
+      "finished_utc": "2026-10-24T03:52:29.605208+00:00",
+      "seconds": 1.84
+    },
+    "probe_fmnist": {
+      "status": "completed",
+      "started_utc": "2026-10-24T03:55:55.049253+00:00",
+      "cores": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "argv": [
+        "run_probe.py",
+        "fmnist",
+        0.1,
+        "fmnist_r0.1"
+      ],
+      "pid": 201,
+      "returncode": 0,
+      "finished_utc": "2026-10-24T04:06:08.191724+00:00",
+      "seconds": 613.14
+    },
+    "diagnostics": {
+      "status": "failed",
+      "started_utc": "2026-10-24T03:55:55.049925+00:00",
+      "cores": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "argv": [
+        "diagnostics.py"
+      ],
+      "pid": 202,
+      "returncode": 1,
+      "finished_utc": "2026-10-24T03:57:11.598792+00:00",
+      "seconds": 76.55
+    },
+    "probe_mfeat": {
+      "status": "completed",
+      "started_utc": "2026-10-24T03:57:11.599542+00:00",
+      "cores": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "argv": [
+        "run_probe.py",
+        "mfeat",
+        0.1,
+        "mfeat_r0.1"
+      ],
+      "pid": 228,
+      "returncode": 0,
+      "finished_utc": "2026-10-24T04:00:45.804263+00:00",
+      "seconds": 214.2
+    },
+    "probe_reuters": {
+      "status": "completed",
+      "started_utc": "2026-10-24T04:00:45.805562+00:00",
+      "cores": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "argv": [
+        "run_probe.py",
+        "reuters_nat",
+        1.0,
+        "reuters_nat"
+      ],
+      "pid": 259,
+      "returncode": 0,
+      "finished_utc": "2026-10-24T04:02:40.031052+00:00",
+      "seconds": 114.22
+    },
+    "preprocessing_before": {
+      "status": "completed",
+      "started_utc": "2026-10-24T04:02:40.032086+00:00",
+      "cores": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "argv": [
+        "run_preprocessing_sensitivity.py",
+        "before"
+      ],
+      "pid": 260,
+      "returncode": 0,
+      "finished_utc": "2026-10-24T04:06:22.191492+00:00",
+      "seconds": 222.16
+    }
+  },
+  "fresh_result_directory": "/workspace/scratch/95d8afaeae10/rerun_20261024/results",
+  "expected_primary_fits": 7600,
+  "status": "failed",
+  "failed_jobs": [
+    "diagnostics"
+  ]
+}

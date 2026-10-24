@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the article."
+title: "Class-mixture dependence in PCA-based hidden-unit screening: reproducibility and minority-class performance (code and results)"
+authors:
+  - family-names: Chou
+    given-names: Elizabeth P.
+    affiliation: "Department of Statistics, National Chengchi University"
+  - family-names: Tsai
+    given-names: Pei-Ying
+    affiliation: "Department of Statistics, National Chengchi University"
+version: 1.0.0
+date-released: 2026-10-31
+license: MIT
+repository-code: "https://github.com/eptchou/class-mixture-pca-screening"
+keywords:
+  - class imbalance
+  - hidden-unit pruning
+  - principal component analysis
+  - ranking stability
+  - Siamese networks
+preferred-citation:
+  type: article
+  title: "Class-mixture dependence in PCA-based hidden-unit screening: reproducibility and minority-class performance"
+  authors:
+    - family-names: Chou
+      given-names: Elizabeth P.
+    - family-names: Tsai
+      given-names: Pei-Ying
+  journal: "Advances in Data Analysis and Classification"
+  year: 2026
+  status: submitted

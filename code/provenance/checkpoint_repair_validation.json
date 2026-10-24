@@ -1,0 +1,20 @@
+{
+  "observed_problem": "empty reuters_bal classifier checkpoint for seed 4",
+  "recovery": "regenerated classifier and all 76 Siamese fits in an isolated directory",
+  "compared_performance_columns": [
+    "pair_acc",
+    "pair_f1",
+    "pair_acc_bt",
+    "pair_f1_bt",
+    "min_recall",
+    "min_f1",
+    "bal_acc",
+    "macro_f1"
+  ],
+  "max_metric_difference": 0.0,
+  "epochs_identical": true,
+  "primary_validation_accuracy_identical": true,
+  "primary_performance_records_replaced": false,
+  "extra_verification_fits": 76,
+  "checkpoint_sha256": "73f737817e2da2d7816f73d0fc2fd6dbd4af88709b16c309d97f4b011a00ff64"
+}

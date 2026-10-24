@@ -1,0 +1,11 @@
+{
+  "article_pages": 32,
+  "changes_pages": 4,
+  "title_pages": 1,
+  "single_multifile_page_text_identical": true,
+  "unresolved_references": false,
+  "layout_overflows": false,
+  "checkpoint_archives": 5,
+  "checkpoints": 110,
+  "all_zip_crc_checks": "passed"
+}

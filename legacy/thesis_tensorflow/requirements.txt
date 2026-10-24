@@ -1,0 +1,18 @@
+# Core scientific stack
+numpy>=1.26,<2.2
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+
+# Deep learning (the research used TensorFlow 2.20.0 / Keras on Python 3.12)
+tensorflow>=2.15,<2.21
+
+# Post hoc tests (Dunn) and plotting
+scikit-posthocs>=0.9
+matplotlib>=3.7
+
+# Text benchmark (Reuters-21578)
+nltk>=3.8
+
+# Excel export is optional; CSV is the default. Uncomment if you re-enable it.
+# openpyxl>=3.1

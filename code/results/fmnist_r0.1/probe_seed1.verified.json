@@ -1,0 +1,10 @@
+{
+  "seed": 1,
+  "criterion_fits": 76,
+  "max_prototype_difference_reported": 8.33e-17,
+  "precision": "three significant digits, from the early probe execution log",
+  "checked_metrics": [
+    "min_recall",
+    "bal_acc"
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "started_utc": "2026-10-24T03:09:06.746046+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "jax": "0.12.0",
+    "jaxlib": "0.12.0",
+    "optax": "0.2.8",
+    "ml_dtypes": "0.6.0",
+    "opt_einsum": "3.4.0",
+    "absl-py": "2.5.1"
+  },
+  "engine_sha256": "b0784bf669420dd7deb8734bb92ed16bbd9d80aa9da92d28ff7e782b246a6968",
+  "data_manifest": [
+    {
+      "file": "train-images-idx3-ubyte.gz",
+      "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-images-idx3-ubyte.gz",
+      "bytes": 26421880,
+      "sha256": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84"
+    },
+    {
+      "file": "train-labels-idx1-ubyte.gz",
+      "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-labels-idx1-ubyte.gz",
+      "bytes": 29515,
+      "sha256": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845"
+    },
+    {
+      "file": "t10k-images-idx3-ubyte.gz",
+      "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-images-idx3-ubyte.gz",
+      "bytes": 4422102,
+      "sha256": "346e55b948d973a97e58d2351dde16a484bd415d4595297633bb08f03db6a073"
+    },
+    {
+      "file": "t10k-labels-idx1-ubyte.gz",
+      "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-labels-idx1-ubyte.gz",
+      "bytes": 5148,
+      "sha256": "67da17c76eaffca5446c3361aaab5c3cd6d1c2608764d35dfb1850b086bf8dd5"
+    },
+    {
+      "file": "mfeat_factors.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/master/datasets/mfeat_factors/mfeat_factors.tsv.gz",
+      "bytes": 625685,
+      "sha256": "f5c6631a9716b8c50951dbf0eb66c2f00d299c115fee72a0c23aff5a7f59fd57"
+    },
+    {
+      "file": "mfeat_fourier.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/master/datasets/mfeat_fourier/mfeat_fourier.tsv.gz",
+      "bytes": 671962,
+      "sha256": "96e23e6f23d40282d416fa071c3b812a7490d016db3511aaed9abb823d9c302f"
+    },
+    {
+      "file": "mfeat_karhunen.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/master/datasets/mfeat_karhunen/mfeat_karhunen.tsv.gz",
+      "bytes": 669720,
+      "sha256": "22baa768886091d61e13e894610dfea3435dfd201f8300fbebe46cd6cf814c0b"
+    },
+    {
+      "file": "mfeat_morphological.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/master/datasets/mfeat_morphological/mfeat_morphological.tsv.gz",
+      "bytes": 34725,
+      "sha256": "5c3ca211459f89e2a6c9e6c48c2557c347baead70ab8dd855e910815a3c46b90"
+    },
+    {
+      "file": "mfeat_pixel.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/master/datasets/mfeat_pixel/mfeat_pixel.tsv.gz",
+      "bytes": 119221,
+      "sha256": "2ec3aa555bffb8694d90f857e5728b63db5d648aa9de2999767428d0f97c0801"
+    },
+    {
+      "file": "mfeat_zernike.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/master/datasets/mfeat_zernike/mfeat_zernike.tsv.gz",
+      "bytes": 551328,
+      "sha256": "427dcec922c1d4cc73baa32af0a3be8a6fe5e24adfa1494338a3b5c3f42ba9af"
+    },
+    {
+      "file": "reuters.zip",
+      "url": "https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/reuters.zip",
+      "bytes": 6378691,
+      "sha256": "9a59a43823f02a6e2777075c989a3dc454e4b6f68e0332ee3c0e8264075b62f5"
+    }
+  ],
+  "workers": 2,
+  "cores_per_worker": 4,
+  "blas_threads": 1,
+  "peak_concurrent_processes": 4,
+  "additional_primary_workers": [
+    {
+      "tags": [
+        "fmnist_r0.01",
+        "mfeat_bal",
+        "fmnist_r0.002"
+      ],
+      "cores": [
+        0,
+        1,
+        6,
+        7
+      ]
+    },
+    {
+      "tags": [
+        "fmnist_r0.02"
+      ],
+      "cores": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "early_probe": {
+    "tag": "fmnist_r0.1",
+    "seed": 1,
+    "max_prototype_difference": 8.33e-17
+  },
+  "early_probe_jobs": [
+    {
+      "tag": "fmnist_r0.1",
+      "seeds": [
+        1
+      ],
+      "cores": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "tag": "fmnist_r0.1",
+      "seeds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "cores": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "tag": "reuters_nat",
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "cores": [
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ]
+}

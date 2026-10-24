@@ -1,0 +1,11 @@
+{
+  "XLA_FLAGS": null,
+  "JAX_PLATFORMS": null,
+  "JAX_ENABLE_X64": null,
+  "OMP_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "TF_NUM_INTRAOP_THREADS": null,
+  "TF_NUM_INTEROP_THREADS": null,
+  "NUMEXPR_NUM_THREADS": null
+}

@@ -1,0 +1,10 @@
+skip /workspace/scratch/95d8afaeae10/rerun_20261024/results/fmnist_r0.1/probe_seed1.csv
+fmnist_r0.1 seed 2 probe done in 149s; max deviation from stored prototype metrics = 8.33e-17
+fmnist_r0.1 seed 3 probe done in 109s; max deviation from stored prototype metrics = 8.33e-17
+fmnist_r0.1 seed 4 probe done in 111s; max deviation from stored prototype metrics = 8.59e-17
+fmnist_r0.1 seed 5 probe done in 107s; max deviation from stored prototype metrics = 8.33e-17
+fmnist_r0.1 seed 6 probe done in 101s; max deviation from stored prototype metrics = 5.55e-17
+fmnist_r0.1 seed 7 probe done in 108s; max deviation from stored prototype metrics = 8.33e-17
+fmnist_r0.1 seed 8 probe done in 109s; max deviation from stored prototype metrics = 8.33e-17
+fmnist_r0.1 seed 9 probe done in 104s; max deviation from stored prototype metrics = 8.33e-17
+fmnist_r0.1 seed 10 probe done in 99s; max deviation from stored prototype metrics = 8.33e-17
